@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewContext xmlns="http://www.opengis.net/context" version="1.1.0" id="cf4f4ac5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.1.0/context.xsd">
+    <General>
+        <Window width="1360" height="777" />
+        <BoundingBox minx="-242000.379640410014" miny="6094789.19199059997" maxx="-138046.021172570006" maxy="6154180.76296820026" SRS="EPSG:3857" />
+        <Title>PVCI</Title>
+        <Abstract>Plan de ville intercommunal</Abstract>
+        <Extension>
+            <ol:maxExtent xmlns:ol="http://openlayers.org/context" minx="-812492.304002249963" miny="4980036.24072379991" maxx="1147000.99160000007" maxy="6906360.72249369975" />
+        </Extension>
+    </General>
+    <LayerList>
+        <Layer queryable="0" hidden="0">
+            <Server service="OGC:WMS" version="1.1.1">
+                 <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sig-test.agglo-rennesmetropole.fr/geowebcache/service/wms" />
+            </Server>
+            <Name>ref_fonds:PVCI</Name>
+            <Title>PVCI</Title>
+            <Abstract>Plan de ville intercommunal</Abstract>
+            <sld:MinScaleDenominator xmlns:sld="http://www.opengis.net/sld">266.5911979812228</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator xmlns:sld="http://www.opengis.net/sld">559082264.0287180</sld:MaxScaleDenominator>
+            <FormatList>
+                <Format current="1">image/png</Format>
+                <Format>application/atom+xml</Format>
+                <Format>application/pdf</Format>
+                <Format>application/vnd.google-earth.kml+xml</Format>
+                <Format>application/vnd.google-earth.kml+xml;mode=networklink</Format>
+                <Format>application/vnd.google-earth.kmz</Format>
+                <Format>image/geotiff</Format>
+                <Format>image/geotiff8</Format>
+                <Format>image/gif</Format>
+                <Format>image/jpeg</Format>
+                <Format>image/png; mode=8bit</Format>
+                <Format>image/svg+xml</Format>
+                <Format>image/tiff</Format>
+                <Format>image/tiff8</Format>
+            </FormatList>
+            <StyleList>
+                <Style current="1">
+                    <Name />
+                    <Title>Default</Title>
+                </Style>
+            </StyleList>
+            <Extension>
+                <ol:maxExtent xmlns:ol="http://openlayers.org/context" minx="-812492.304002249963" miny="4980036.24072379991" maxx="1147000.99160000007" maxy="6906360.72249369975" />
+                <ol:tileSize xmlns:ol="http://openlayers.org/context" width="512" height="512" />
+                <ol:transparent xmlns:ol="http://openlayers.org/context">true</ol:transparent>
+                <ol:numZoomLevels xmlns:ol="http://openlayers.org/context">22</ol:numZoomLevels>
+                <ol:units xmlns:ol="http://openlayers.org/context">m</ol:units>
+                <ol:isBaseLayer xmlns:ol="http://openlayers.org/context">false</ol:isBaseLayer>
+                <ol:displayInLayerSwitcher xmlns:ol="http://openlayers.org/context">true</ol:displayInLayerSwitcher>
+                <ol:singleTile xmlns:ol="http://openlayers.org/context">false</ol:singleTile>
+                <ol:transitionEffect xmlns:ol="http://openlayers.org/context">map-resize</ol:transitionEffect>
+                <ol:gutter xmlns:ol="http://openlayers.org/context">10</ol:gutter>
+            </Extension>
+        </Layer>
+    </LayerList>
+</ViewContext>
