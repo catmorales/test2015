@@ -12,7 +12,7 @@
         <LayerList>
             <Layer queryable="0" hidden="1">
                 <Server service="OGC:WMS" version="1.1.1">
-                    <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sig.agglo-rennesmetropole.fr/geowebcache/service/wms" />
+                    <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://@shared.server.name@/geowebcache/service/wms" />
                 </Server>
                 <Name>ref_cad:Cadastre</Name>
                 <Title>Cadastre</Title>
